@@ -1,7 +1,7 @@
 (require 'autothemer)
 
 (autothemer-deftheme
- emacs-morrowind "Morrowind menu style color theme for Emacs, Nerevar approved"
+ morrowind "Morrowind menu style color theme for Emacs, Nerevar approved"
  ((((class color) (min-colors #xFFFFFF))) ;; We're only concerned with graphical Emacs
 
   ;; Defining our color palette:
@@ -17,7 +17,7 @@
 ;; Not sure if this works:
 ;; (hl-line (:foreground morrowind-green))))
 
-(provide-theme 'emacs-morrowind)
+(provide-theme 'morrowind)
 
 ;; Main colors to use:
 ;; Colors sampled from Morrowind menu screenshot:
