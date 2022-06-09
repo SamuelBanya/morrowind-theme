@@ -36,7 +36,7 @@
        (bg1 "#100b00")
        (bg2 "#231f14")
        (bg3 "#363229")
-       (bg4 "#49463d")
+       (bg4 "#fc9723")
        (builtin "#fc4e5f")
        (keyword "#f45229")
        (const   "#daffaa")
