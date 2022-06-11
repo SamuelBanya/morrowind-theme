@@ -81,12 +81,16 @@
 	`(link ((,class (:foreground ,const :underline t))))
 	`(org-code ((,class (:foreground ,fg2))))
 	`(org-hide ((,class (:foreground ,fg4))))
-        ;; Order of colors to match actual Morrowind menu: Orange, tan, red, blue, green
+        ;; First 5 items: Order of colors to match actual Morrowind menu: Orange, tan, red, blue, green
         `(org-level-1 ((,class (:bold t :foreground ,keyword))))
         `(org-level-2 ((,class (:bold nil :foreground ,bg4))))
         `(org-level-3 ((,class (:bold t :foreground ,builtin))))
         `(org-level-4 ((,class (:bold nil :foreground ,str))))
         `(org-level-5 ((,class (:bold t :foreground ,const))))
+        ;; Last three colors are remaining colors that look decent:
+        `(org-level-6 ((,class (:bold nil :foreground ,func))))
+        `(org-level-7 ((,class (:bold t :foreground ,var))))
+        `(org-level-8 ((,class (:bold nil :foreground ,warning))))
         `(org-date ((,class (:underline t :foreground ,var) )))
         `(org-footnote  ((,class (:underline t :foreground ,fg4))))
         `(org-link ((,class (:underline t :foreground ,type ))))
