@@ -68,8 +68,9 @@
 	`(hl-line ((,class (:background  ,bg2))))
 	`(fringe ((,class (:background ,bg2 :foreground ,fg4))))
 	`(cursor ((,class (:foreground nil :background ,bg3))))
-        `(show-paren-match-face ((,class (:background ,warning))))
-        `(isearch ((,class (:bold t :foreground ,warning :background ,bg3))))
+  `(show-paren-match-face ((,class (:background ,warning))))
+  ;; Changing 'isearch' to 'warning2' color since the default 'bg3' is blinding:
+        `(isearch ((,class (:bold t :foreground ,warning :background ,warning2))))
         `(mode-line ((,class (:box (:line-width 1 :color nil) :bold t :foreground ,bg4 :background ,bg2))))
         `(mode-line-inactive ((,class (:box (:line-width 1 :color nil :style pressed-button) :foreground ,var :background ,bg1 :weight normal))))
         `(mode-line-buffer-id ((,class (:bold t :foreground ,func :background nil))))
