@@ -1,9 +1,9 @@
-;;; morrowind-emacs-theme.el --- Theme
+;;; morrowind-theme.el --- Theme
 
 ;; Copyright (C) 2022 , Samuel Banya
 
 ;; Author: Samuel Banya
-;; URL: https://github.com/samuelbanya/morrowind-emacs-theme
+;; URL: https://github.com/samuelbanya/morrowind-theme
 ;; Version: 0.1
 ;; Package-Requires: ((emacs "24"))
 ;; Created with ThemeCreator, https://github.com/mswift42/themecreator.
