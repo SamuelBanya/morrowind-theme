@@ -29,7 +29,7 @@
 
 ;;; Code:
 
-(deftheme morrowind-emacs)
+(deftheme morrowind-theme)
 (let ((class '((class color) (min-colors 89)))
       (fg1 "#128c43")
       (fg2 "#11813e")

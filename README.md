@@ -1,4 +1,4 @@
-# emacs-morrowind-theme
+# Morrowind Theme
 Morrowind menu style color theme for Emacs, Nerevar approved
 
 # Screenshots
