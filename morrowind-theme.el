@@ -50,7 +50,7 @@
       (warning "#ff0000")
       (warning2 "#ff8800"))
   (custom-theme-set-faces
-   'morrowind-emacs
+   'morrowind
    `(default ((,class (:background ,bg1 :foreground ,fg1))))
    `(font-lock-builtin-face ((,class (:foreground ,builtin))))
    `(font-lock-comment-face ((,class (:foreground ,comment))))
@@ -255,13 +255,13 @@
   ;; emacs >= 26.1
   (when (>= emacs-major-version 26)
     (custom-theme-set-faces
-     'morrowind-emacs
+     'morrowind
      `(line-number ((t (:inherit fringe))))
      `(line-number-current-line ((t (:inherit fringe :foreground "white" :weight bold))))))
   ;; emacs >= 27.1
   (when (>= emacs-major-version 27)
     (custom-theme-set-faces
-     'morrowind-emacs
+     'morrowind
      `(tab-line              ((,class (:background ,bg2 :foreground ,fg4))))
      `(tab-line-tab          ((,class (:inherit tab-line))))
      `(tab-line-tab-inactive ((,class (:background ,bg2 :foreground ,fg4))))
@@ -274,10 +274,10 @@
   (add-to-list 'custom-theme-load-path
                (file-name-as-directory (file-name-directory load-file-name))))
 
-(provide-theme 'morrowind-emacs)
+(provide-theme 'morrowind)
 
 ;; Local Variables:
 ;; no-byte-compile: t
 ;; End:
 
-;;; morrowind-emacs-theme.el ends here
+;;; morrowind-theme.el ends here
