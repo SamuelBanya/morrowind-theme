@@ -3,10 +3,10 @@
 ;; Copyright (C) 2022 , Samuel Banya
 
 ;; Author: Samuel Banya
+;; URL: https://github.com/samuelbanya/morrowind-emacs-theme
 ;; Version: 0.1
 ;; Package-Requires: ((emacs "24"))
 ;; Created with ThemeCreator, https://github.com/mswift42/themecreator.
-
 
 ;; This program is free software: you can redistribute it and/or modify
 ;; it under the terms of the GNU General Public License as published by
@@ -27,7 +27,7 @@
 
 ;;; Code:
 
- (deftheme morrowind-emacs)
+(deftheme morrowind-emacs)
  (let ((class '((class color) (min-colors 89)))
        (fg1 "#128c43")
        (fg2 "#11813e")
