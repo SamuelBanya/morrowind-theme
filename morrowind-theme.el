@@ -5,7 +5,7 @@
 ;; Author: Samuel Banya
 ;; URL: https://github.com/samuelbanya/morrowind-theme
 ;; Version: 0.1
-;; Package-Requires: ((emacs "24"))
+;; Package-Requires: ((emacs "24.1"))
 ;; Created with ThemeCreator, https://github.com/mswift42/themecreator.
 
 ;; This program is free software: you can redistribute it and/or modify
@@ -266,8 +266,7 @@
      `(tab-line-tab          ((,class (:inherit tab-line))))
      `(tab-line-tab-inactive ((,class (:background ,bg2 :foreground ,fg4))))
      `(tab-line-tab-current  ((,class (:background ,bg1 :foreground ,fg1))))
-     `(tab-line-highlight    ((,class (:background ,bg1 :foreground ,fg2))))))
-  )
+     `(tab-line-highlight    ((,class (:background ,bg1 :foreground ,fg2)))))))
 
 ;;;###autoload
 (when load-file-name
