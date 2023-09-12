@@ -70,7 +70,7 @@
    `(highlight ((,class (:foreground ,fg3 :background ,bg3))))
 	 `(hl-line ((,class (:background  ,bg2))))
 	 `(fringe ((,class (:background ,bg2 :foreground ,fg4))))
-	 `(cursor ((,class (:foreground nil :background ,bg3))))
+	 `(cursor ((,class (:foreground nil :background ,var))))
    `(show-paren-match-face ((,class (:background ,warning))))
    ;; Changing 'isearch' to 'warning2' color since the default 'bg3' is blinding:
    `(isearch ((,class (:bold t :foreground ,warning :background ,warning2))))
